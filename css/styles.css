@@ -1,0 +1,202 @@
+:root{
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --batton-background-color: #F5F4FA;
+    --color-fone: #FFFFFF;
+    
+}
+
+
+body {
+    background-color: #FFFFFF;
+    font-family: "Roboto";
+    color: black;
+    
+        
+    
+}
+
+h1, h2, h3{
+    font-family: 
+    Roboto; 
+}
+
+ul{
+    list-style: none;
+}
+
+/**{
+    color: black;
+}
+
+/*лого*/
+
+.logo{
+    font-family: Raleway;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+}
+
+.logo-web {
+    color: var(--accent-color);
+          
+}
+
+.logo-studio {
+    color: var(--title-text-color);
+}
+
+
+/*шапка*/
+.nav{   
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+
+.nav_batton {
+    color: var(--primary-text-color);
+    text-decoration: none;
+}
+
+.nav_batton:hover,
+.nav_batton:focus
+{
+    color: var(--accent-color);
+    text-decoration: none;
+}
+
+.nav_batton :active{
+    color: var(--accent-color);
+    text-decoration: none;
+}
+
+.hero{
+    /*position: absolute;
+    width: 696px;
+    height: 120px;
+    left: 452px;
+    font-weight: 900;
+    top: 280px;*/
+    font-size: 44px; 
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    background-color: #2F303A;
+    color:  #FFFFFF;
+}
+
+.fiska-a{    
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+}
+
+.fishka-d{    
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+/*секции*/
+.section-title{
+    color:  var(--primary-text-color);    
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1,16;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.frends{
+    font-family: Roboto;    
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;     
+    letter-spacing: 0.03em;
+}
+
+/*batton*/
+.button{
+    color: var(--title-text-color);
+    background-color: var(--batton-background-color)
+    
+
+}
+.button:hover,
+button:focus{
+    color: #FFFFFF;
+    background-color: #2196F3;   
+}
+.button-hero{
+    color: var(--color-fone);
+    background-color: #2196F3;    
+    font-weight: bold;
+    font-size: 16px;
+    line-height:1,87;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-decoration: none;    
+}
+
+
+.project-logo{   
+    
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: #212121;     
+}
+
+.progject-text{   
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+    color: #757575;    
+}
+
+.address{
+    background-color: #2F303A;;
+}
+
+.address-map{    
+    font-size: 14px;
+    line-height: 1.71;       
+    letter-spacing: 0.03em;    
+    color: #FFFFFF;
+}
+
+.addres-mail,
+.address-tel{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;    
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    
+    
+}
+
+
+.logo-footer{
+    color: #FFFFFF;
+    
+}
