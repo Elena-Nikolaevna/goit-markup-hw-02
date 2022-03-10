@@ -183,24 +183,16 @@ ul{
     font-weight: 700;
     line-height:1.87;
     text-decoration: none;
-    text-align: center;
-
-    
-
-    
-    
-    
-         
+    text-align: center;          
+       
 }
 
 .fiska-syle{
     display: flex;
     margin-top: 0px;
     margin-bottom: 0px;
-    padding-left: 0px;
-    
-   
-}
+    padding-left: 0px;   
+   }
 
 .fiska-syle .fitem{
     display: block;
@@ -237,7 +229,6 @@ ul{
 
 /*секции*/
 .section-title{
-
     padding-top: 94px;
     padding-bottom: none;    
     margin-top: 94px;
@@ -274,8 +265,7 @@ ul{
     display: flex;
     padding-left: 0px;
     margin-top: 50px;
-    margin-bottom: 0px;
-    
+    margin-bottom: 0px;    
 }
 
 .galery .foto{
@@ -288,12 +278,11 @@ ul{
 
 
 .frends{
-    background: #F5F4FA;
+    background: var(--batton-background-color);
     padding-left: 0px;
     margin-top: 0px;
     padding-top: 50px;
-    padding-bottom: 94px;
-        
+    padding-bottom: 94px;        
 }
 
 
@@ -323,9 +312,7 @@ ul{
     margin-left: auto;
     margin-right: auto;
     min-height: 100px;
-    width: 611;
-    
-
+    width: 611;   
 }
 
 .container
@@ -370,17 +357,13 @@ ul{
     margin-bottom: 16px;
     padding-left: 0px;
     margin-top: 128px;
-    margin-bottom: 0px;
-
-        
+    margin-bottom: 0px;       
 }
 
 
 .navlist
 .navli{
-    margin-right: 8px;
-    
-
+    margin-right: 8px;   
 }
 
 .navlist .navli:last-child{
@@ -400,16 +383,14 @@ ul{
 .flex-element{
     width: 370px;
     /*background-color: tomato;*/
-    margin-bottom: 30px;
-    
+    margin-bottom: 30px;    
 }
 
 .flex-element:nth-last-child( -n + 3){
     margin-bottom: 0;
 }
 
-.project-logo{   
-    
+.project-logo{ 
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
@@ -462,20 +443,17 @@ ul{
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
-    padding-top: 8px;
-    
-    }
+    padding-top: 8px;    
+}
 
 
 .logo-footer{
-    color: var(--color-fone);
-    
-    
+    color: var(--color-fone); 
+   
 }
 
 .logo-footer{
-    display: inline-block;
-       
+    display: inline-block;       
 }
 
 .logo-foot{
@@ -495,8 +473,7 @@ ul{
 
 .adress-footer{
     display: flex;
-    padding-left: 0px;
-    
+    padding-left: 0px;    
 }
 
 .adress-ul{
